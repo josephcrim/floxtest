@@ -1,0 +1,121 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "hook": {
+      "script": "  echo \"\";\n  echo \"Start the server with 'npm start'\";\n  echo \"testing123\";\n"
+    },
+    "install": {
+      "mkcert": {
+        "pkg-path": "mkcert"
+      },
+      "nodejs": {
+        "pkg-path": "nodejs"
+      }
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    },
+    "vars": {}
+  },
+  "packages": {
+    "aarch64-darwin": {
+      "mkcert": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "mkcert"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A simple tool for making locally-trusted development certificates",
+          "license": "BSD-3-Clause",
+          "pname": "mkcert",
+          "unfree": false,
+          "version": "1.4.4"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710628718,
+            "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+            "type": "github"
+          },
+          "fingerprint": "257126b9a4ec7e4855a4281b93d26478486567832e08ffe803440dfe3a8c0f6d",
+          "url": "github:NixOS/nixpkgs/6dc11d9859d6a18ab0c5e5829a5b8e4810658de3"
+        },
+        "priority": 5
+      },
+      "nodejs": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "nodejs"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "license": "MIT",
+          "pname": "nodejs",
+          "unfree": false,
+          "version": "18.19.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710628718,
+            "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+            "type": "github"
+          },
+          "fingerprint": "257126b9a4ec7e4855a4281b93d26478486567832e08ffe803440dfe3a8c0f6d",
+          "url": "github:NixOS/nixpkgs/6dc11d9859d6a18ab0c5e5829a5b8e4810658de3"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1710628718,
+          "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
