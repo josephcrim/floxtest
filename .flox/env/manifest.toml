@@ -3,6 +3,7 @@
 [install]
 nodejs.pkg-path = "nodejs"
 mkcert.pkg-path = "mkcert"
+ruby.pkg-path = "ruby"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^18.4.2", pkg-path = "nodejs_18" }
 

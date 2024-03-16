@@ -10,6 +10,9 @@
       },
       "nodejs": {
         "pkg-path": "nodejs"
+      },
+      "ruby": {
+        "pkg-path": "ruby"
       }
     },
     "registry": {
@@ -78,6 +81,34 @@
           "pname": "nodejs",
           "unfree": false,
           "version": "18.19.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1710628718,
+            "narHash": "sha256-y+l3eH53UlENaYa1lmnCBHusZb1kxBEFd2/c7lDsGpw=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "6dc11d9859d6a18ab0c5e5829a5b8e4810658de3",
+            "type": "github"
+          },
+          "fingerprint": "257126b9a4ec7e4855a4281b93d26478486567832e08ffe803440dfe3a8c0f6d",
+          "url": "github:NixOS/nixpkgs/6dc11d9859d6a18ab0c5e5829a5b8e4810658de3"
+        },
+        "priority": 5
+      },
+      "ruby": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "ruby"
+        ],
+        "info": {
+          "broken": false,
+          "description": "An object-oriented language for quick and easy programming",
+          "license": "Ruby",
+          "pname": "ruby",
+          "unfree": false,
+          "version": "3.1.4"
         },
         "input": {
           "attrs": {
